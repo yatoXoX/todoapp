@@ -17,3 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/list', [TodoListController::class, 'index']);
+
+use App\Http\Controllers\TaskController;
+ 
+Route::resource('tasks', TaskController::class);
