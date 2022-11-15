@@ -13,9 +13,9 @@ class DatabaseSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
-        $this->call([
-            TodoListSeeder::class
-          ]);
-    }
+{
+  $this->call([
+    TodoListSeeder::class
+  ]);
+}
 }
